@@ -11,6 +11,6 @@ def ft_join(n, b):
     if not b:
         b = " "
     while z != ft_len(n) - 1:
-        x = x + n[z] + b
+        x += n[z] + b
     x += n[-1]
     return x
