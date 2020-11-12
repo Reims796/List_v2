@@ -1,4 +1,4 @@
-def ft_join(lst, n):
+def ft_join(lst, n=' '):
     z = 0
     for i in lst:
         z += 1
