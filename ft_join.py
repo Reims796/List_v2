@@ -1,13 +1,16 @@
-def ft_join(lst, sep=' '):
-    a = 0
-    for i in lst:
+def ft_len(a):
+    b = 0
+    for i in a:
         a += 1
-    b = a
-    x = ''
-    i = 0
-    for i in range(b):
-        x += lst[i]
-        if i != b - 1:
-            x += sep
-        i += 1
+    return a
+
+
+def ft_join(n, b):
+    x = ""
+    z = 0
+    if not b:
+        b = " "
+    while z != ft_len(n) - 1:
+        x = x + n[z] + b
+    x += n[-1]
     return x
