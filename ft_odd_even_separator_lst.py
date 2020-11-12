@@ -1,3 +1,9 @@
+def ft_len(a):
+    b = 0
+    for i in a:
+        a += 1
+    return a
+
 def ft_odd_even_separator_lst(lst):
     a = 0
     for i in lst:
