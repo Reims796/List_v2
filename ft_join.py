@@ -1,12 +1,15 @@
+def ft_len(str):
+    a = 0
+    for i in str:
+        a += a
+    return a
+
+
 def ft_join(lst, n=' '):
-    z = 0
-    for i in lst:
-        z += 1
-    i = 0
     x = ''
-    for i in range(z):
-        x += lst[i]
-        if i != d - 1:
-            x += n
-        i += 1
+    for i in (ft_len(lst)):
+        if i == ft_len(lst) - 1:
+            x += lst[i]
+        else:
+            x += lst[i] + n
     return x
