@@ -20,6 +20,6 @@ def ft_odd_even_separator_lst(lst):
         elif lst[i] % 2 != 0:
             k.append(lst[i])
         i += 1
-    x[0] = k
-    x[1] = n
+    x[0] = n
+    x[1] = k
     return x
