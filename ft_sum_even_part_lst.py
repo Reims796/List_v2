@@ -1,4 +1,4 @@
-def ft_sum_even_lst(lst):
+def ft_sum_even_part_lst(lst):
     a = 0
     for i in lst:
         a += 1
@@ -10,4 +10,3 @@ def ft_sum_even_lst(lst):
             x += lst[i]
         i += 1
     return x
-
