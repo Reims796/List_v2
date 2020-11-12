@@ -14,7 +14,7 @@ def ft_pos_neg_separator_lst(lst):
     c = []
     e = []
     d = []
-    x = [[0], [0]]
+    x = [[0], [0], [0]]
     for i in range(b):
         if lst[i] > 0:
             c.append(lst[i])
