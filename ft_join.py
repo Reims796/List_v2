@@ -1,4 +1,4 @@
-def ft_join(lst, sep=' '):
+def ft_join(lst, n):
     z = 0
     for i in lst:
         z += 1
@@ -7,6 +7,6 @@ def ft_join(lst, sep=' '):
     for i in range(z):
         x += lst[i]
         if i != d - 1:
-            x += sep
+            x += n
         i += 1
     return x
