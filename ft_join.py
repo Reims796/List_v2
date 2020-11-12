@@ -7,7 +7,7 @@ def ft_len(str):
 
 def ft_join(lst, n=' '):
     x = ''
-    for i in (ft_len(lst)):
+    for i in range(ft_len(lst)):
         if i == ft_len(lst) - 1:
             x += lst[i]
         else:
